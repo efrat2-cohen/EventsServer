@@ -1,0 +1,359 @@
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\API.dll.config
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\API.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\API.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\csc.exe
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\csc.exe.config
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\csc.rsp
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\csi.exe
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\csi.exe.config
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\csi.rsp
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.AppContext.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Collections.Immutable.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Console.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.IO.Compression.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.IO.FileSystem.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.IO.Pipes.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Security.AccessControl.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Security.Claims.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.ValueTuple.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Xml.XPath.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\vbc.exe
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\vbc.exe.config
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\vbc.rsp
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\VBCSCompiler.exe
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\roslyn\VBCSCompiler.exe.config
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\BL.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\Microsoft.Web.Infrastructure.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\Newtonsoft.Json.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Net.Http.Formatting.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Cors.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Helpers.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Http.Cors.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Http.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Http.WebHost.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Mvc.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Razor.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Webpages.Deployment.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Webpages.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Webpages.Razor.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\DTO.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\DAL.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\EntityFramework.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\BL.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Net.Http.Formatting.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Http.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Http.Cors.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Razor.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Webpages.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Webpages.Deployment.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Webpages.Razor.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Helpers.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Mvc.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\Newtonsoft.Json.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\System.Web.Http.WebHost.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\DTO.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\DAL.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\DAL.dll.config
+C:\שנה ב\פרויקט גמר\EventsProject\API\bin\EntityFramework.xml
+C:\שנה ב\פרויקט גמר\EventsProject\API\obj\Debug\API.csprojAssemblyReference.cache
+C:\שנה ב\פרויקט גמר\EventsProject\API\obj\Debug\API.csproj.CopyComplete
+C:\שנה ב\פרויקט גמר\EventsProject\API\obj\Debug\API.dll
+C:\שנה ב\פרויקט גמר\EventsProject\API\obj\Debug\API.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\API.dll.config
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\API.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\API.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\csc.exe
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\csc.exe.config
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\csc.rsp
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\csi.exe
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\csi.exe.config
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\csi.rsp
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\Microsoft.CSharp.Core.targets
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\Microsoft.Managed.Core.targets
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.AppContext.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Collections.Immutable.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Console.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.IO.Compression.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.IO.FileSystem.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.IO.Pipes.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Reflection.Metadata.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Security.AccessControl.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Security.Claims.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Security.Principal.Windows.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.ValueTuple.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Xml.ReaderWriter.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Xml.XmlDocument.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Xml.XPath.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\vbc.exe
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\vbc.exe.config
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\vbc.rsp
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\VBCSCompiler.exe
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\roslyn\VBCSCompiler.exe.config
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\BL.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\Microsoft.Web.Infrastructure.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\Newtonsoft.Json.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Net.Http.Formatting.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Cors.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Helpers.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Http.Cors.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Http.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Http.WebHost.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Mvc.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Razor.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Webpages.Deployment.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Webpages.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Webpages.Razor.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\DTO.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\DAL.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\EntityFramework.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\BL.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Net.Http.Formatting.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Http.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Http.Cors.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Razor.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Webpages.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Webpages.Deployment.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Webpages.Razor.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Helpers.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Mvc.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\Newtonsoft.Json.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\System.Web.Http.WebHost.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\DTO.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\DAL.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\DAL.dll.config
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\EntityFramework.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\obj\Debug\API.csproj.CopyComplete
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\obj\Debug\API.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\obj\Debug\API.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\obj\Debug\API.csproj.AssemblyReference.cache
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\EntityFramework.SqlServer.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\API\bin\EntityFramework.SqlServer.xml
+F:\12 06\EventsProject\API\bin\API.dll.config
+F:\12 06\EventsProject\API\bin\API.dll
+F:\12 06\EventsProject\API\bin\API.pdb
+F:\12 06\EventsProject\API\bin\roslyn\csc.exe
+F:\12 06\EventsProject\API\bin\roslyn\csc.exe.config
+F:\12 06\EventsProject\API\bin\roslyn\csc.rsp
+F:\12 06\EventsProject\API\bin\roslyn\csi.exe
+F:\12 06\EventsProject\API\bin\roslyn\csi.exe.config
+F:\12 06\EventsProject\API\bin\roslyn\csi.rsp
+F:\12 06\EventsProject\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\12 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\12 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\12 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\12 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\12 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\12 06\EventsProject\API\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\12 06\EventsProject\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\12 06\EventsProject\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\12 06\EventsProject\API\bin\roslyn\Microsoft.Managed.Core.targets
+F:\12 06\EventsProject\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\12 06\EventsProject\API\bin\roslyn\System.AppContext.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Collections.Immutable.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Console.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.IO.Compression.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.IO.FileSystem.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.IO.Pipes.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Reflection.Metadata.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Security.AccessControl.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Security.Claims.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Security.Principal.Windows.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.ValueTuple.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Xml.XmlDocument.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Xml.XPath.dll
+F:\12 06\EventsProject\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\12 06\EventsProject\API\bin\roslyn\vbc.exe
+F:\12 06\EventsProject\API\bin\roslyn\vbc.exe.config
+F:\12 06\EventsProject\API\bin\roslyn\vbc.rsp
+F:\12 06\EventsProject\API\bin\roslyn\VBCSCompiler.exe
+F:\12 06\EventsProject\API\bin\roslyn\VBCSCompiler.exe.config
+F:\12 06\EventsProject\API\bin\BL.dll
+F:\12 06\EventsProject\API\bin\EntityFramework.dll
+F:\12 06\EventsProject\API\bin\EntityFramework.SqlServer.dll
+F:\12 06\EventsProject\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\12 06\EventsProject\API\bin\Microsoft.Web.Infrastructure.dll
+F:\12 06\EventsProject\API\bin\Newtonsoft.Json.dll
+F:\12 06\EventsProject\API\bin\System.Net.Http.Formatting.dll
+F:\12 06\EventsProject\API\bin\System.Web.Cors.dll
+F:\12 06\EventsProject\API\bin\System.Web.Helpers.dll
+F:\12 06\EventsProject\API\bin\System.Web.Http.Cors.dll
+F:\12 06\EventsProject\API\bin\System.Web.Http.dll
+F:\12 06\EventsProject\API\bin\System.Web.Http.WebHost.dll
+F:\12 06\EventsProject\API\bin\System.Web.Mvc.dll
+F:\12 06\EventsProject\API\bin\System.Web.Razor.dll
+F:\12 06\EventsProject\API\bin\System.Web.Webpages.Deployment.dll
+F:\12 06\EventsProject\API\bin\System.Web.Webpages.dll
+F:\12 06\EventsProject\API\bin\System.Web.Webpages.Razor.dll
+F:\12 06\EventsProject\API\bin\DTO.dll
+F:\12 06\EventsProject\API\bin\DAL.dll
+F:\12 06\EventsProject\API\bin\BL.pdb
+F:\12 06\EventsProject\API\bin\EntityFramework.xml
+F:\12 06\EventsProject\API\bin\EntityFramework.SqlServer.xml
+F:\12 06\EventsProject\API\bin\System.Net.Http.Formatting.xml
+F:\12 06\EventsProject\API\bin\System.Web.Http.xml
+F:\12 06\EventsProject\API\bin\System.Web.Http.Cors.xml
+F:\12 06\EventsProject\API\bin\System.Web.Razor.xml
+F:\12 06\EventsProject\API\bin\System.Web.Webpages.xml
+F:\12 06\EventsProject\API\bin\System.Web.Webpages.Deployment.xml
+F:\12 06\EventsProject\API\bin\System.Web.Webpages.Razor.xml
+F:\12 06\EventsProject\API\bin\System.Web.Helpers.xml
+F:\12 06\EventsProject\API\bin\System.Web.Mvc.xml
+F:\12 06\EventsProject\API\bin\Newtonsoft.Json.xml
+F:\12 06\EventsProject\API\bin\System.Web.Http.WebHost.xml
+F:\12 06\EventsProject\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\12 06\EventsProject\API\bin\DTO.pdb
+F:\12 06\EventsProject\API\bin\DAL.pdb
+F:\12 06\EventsProject\API\bin\DAL.dll.config
+F:\12 06\EventsProject\API\obj\Debug\API.csprojAssemblyReference.cache
+F:\12 06\EventsProject\API\obj\Debug\API.csproj.CopyComplete
+F:\12 06\EventsProject\API\obj\Debug\API.dll
+F:\12 06\EventsProject\API\obj\Debug\API.pdb
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\API.dll.config
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\API.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\API.pdb
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\csc.exe
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\csc.exe.config
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\csc.rsp
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\csi.exe
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\csi.exe.config
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\csi.rsp
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.AppContext.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Collections.Immutable.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Console.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.IO.Compression.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.IO.FileSystem.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.IO.Pipes.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Security.AccessControl.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Security.Claims.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.ValueTuple.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Xml.XPath.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\vbc.exe
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\vbc.exe.config
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\vbc.rsp
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\VBCSCompiler.exe
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\roslyn\VBCSCompiler.exe.config
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\BL.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\EntityFramework.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\EntityFramework.SqlServer.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\Microsoft.Web.Infrastructure.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\Newtonsoft.Json.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Net.Http.Formatting.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Cors.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Helpers.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Http.Cors.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Http.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Http.WebHost.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Mvc.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Razor.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Webpages.Deployment.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Webpages.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Webpages.Razor.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\DTO.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\DAL.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\BL.pdb
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\EntityFramework.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\EntityFramework.SqlServer.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Net.Http.Formatting.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Http.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Http.Cors.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Razor.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Webpages.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Webpages.Deployment.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Webpages.Razor.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Helpers.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Mvc.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\Newtonsoft.Json.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\System.Web.Http.WebHost.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\DTO.pdb
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\DAL.pdb
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\bin\DAL.dll.config
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\obj\Debug\API.csprojAssemblyReference.cache
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\obj\Debug\API.csproj.CopyComplete
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\obj\Debug\API.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\API\obj\Debug\API.pdb

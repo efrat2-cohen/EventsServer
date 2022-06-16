@@ -1,0 +1,80 @@
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DAL\bin\Debug\DAL.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DAL\bin\Debug\DAL.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DAL\bin\Debug\DAL.dll.config
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DAL\bin\Debug\EntityFramework.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DAL\bin\Debug\EntityFramework.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\EventsProject\DAL\bin\Debug\DAL.dll.config
+D:\EventsProject\DAL\bin\Debug\DAL.dll
+D:\EventsProject\DAL\bin\Debug\DAL.pdb
+D:\EventsProject\DAL\bin\Debug\EntityFramework.dll
+D:\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\EventsProject\DAL\bin\Debug\EntityFramework.xml
+D:\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\EventsProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\EventsProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\EventsProject\DAL\obj\Debug\DAL.dll
+D:\EventsProject\DAL\obj\Debug\DAL.pdb
+D:\EventsProject\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.dll
+E:\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.pdb
+E:\פרויקט גמר\EventsProject\DAL\bin\Debug\DAL.dll.config
+E:\פרויקט גמר\EventsProject\DAL\bin\Debug\DAL.dll
+E:\פרויקט גמר\EventsProject\DAL\bin\Debug\DAL.pdb
+E:\פרויקט גמר\EventsProject\DAL\bin\Debug\EntityFramework.dll
+E:\פרויקט גמר\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\פרויקט גמר\EventsProject\DAL\bin\Debug\EntityFramework.xml
+E:\פרויקט גמר\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\שנה ב\פרויקט גמר\EventsProject\DAL\bin\Debug\DAL.dll.config
+C:\שנה ב\פרויקט גמר\EventsProject\DAL\bin\Debug\DAL.dll
+C:\שנה ב\פרויקט גמר\EventsProject\DAL\bin\Debug\DAL.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\DAL\bin\Debug\EntityFramework.dll
+C:\שנה ב\פרויקט גמר\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\שנה ב\פרויקט גמר\EventsProject\DAL\bin\Debug\EntityFramework.xml
+C:\שנה ב\פרויקט גמר\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\שנה ב\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\שנה ב\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\שנה ב\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.dll
+C:\שנה ב\פרויקט גמר\EventsProject\DAL\obj\Debug\DAL.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\DAL\bin\Debug\DAL.dll.config
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\DAL\bin\Debug\DAL.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\DAL\bin\Debug\DAL.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\DAL\bin\Debug\EntityFramework.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\DAL\bin\Debug\EntityFramework.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\DAL\obj\Debug\DAL.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\DAL\obj\Debug\DAL.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\12 06\EventsProject\DAL\bin\Debug\DAL.dll.config
+F:\12 06\EventsProject\DAL\bin\Debug\DAL.dll
+F:\12 06\EventsProject\DAL\bin\Debug\DAL.pdb
+F:\12 06\EventsProject\DAL\bin\Debug\EntityFramework.dll
+F:\12 06\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\12 06\EventsProject\DAL\bin\Debug\EntityFramework.xml
+F:\12 06\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\12 06\EventsProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+F:\12 06\EventsProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\12 06\EventsProject\DAL\obj\Debug\DAL.dll
+F:\12 06\EventsProject\DAL\obj\Debug\DAL.pdb
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\bin\Debug\DAL.dll.config
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\bin\Debug\DAL.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\bin\Debug\DAL.pdb
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\bin\Debug\EntityFramework.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\bin\Debug\EntityFramework.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\obj\Debug\DAL.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\obj\Debug\DAL.pdb

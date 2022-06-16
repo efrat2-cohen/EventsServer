@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="EventsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="HallOwner">
+          <Key>
+            <PropertyRef Name="Owners" />
+          </Key>
+          <Property Name="Owners" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameOwners" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="PhoneNumber" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="CreditCardNumber" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Validity" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="back3Digits" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="PasswordHallOwner" Type="varchar" MaxLength="9" />
+          <Property Name="IdHallOwner" Type="varchar" MaxLength="9" />
+          <Property Name="Email" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="HallPriceList">
+          <Key>
+            <PropertyRef Name="PriceList" />
+          </Key>
+          <Property Name="PriceList" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Owners" Type="int" Nullable="false" />
+          <Property Name="Hall" Type="int" Nullable="false" />
+          <Property Name="Joy" Type="int" Nullable="false" />
+          <Property Name="BasePrice" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Popularity" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="HallToTheHallOwner">
+          <Key>
+            <PropertyRef Name="Hall" />
+          </Key>
+          <Property Name="Hall" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Owners" Type="int" Nullable="false" />
+          <Property Name="LocationHall" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="MaximumNumberOfPlaces" Type="int" Nullable="false" />
+          <Property Name="Stars" Type="int" Nullable="false" />
+          <Property Name="MinimumPlacesToBook" Type="int" Nullable="false" />
+          <Property Name="image1" Type="varchar" MaxLength="500" />
+          <Property Name="image2" Type="varchar" MaxLength="500" />
+          <Property Name="image3" Type="varchar" MaxLength="500" />
+          <Property Name="IsAccessibilityLevel" Type="bit" />
+          <Property Name="IsParking" Type="bit" />
+          <Property Name="Street" Type="nvarchar" MaxLength="100" />
+          <Property Name="City" Type="nvarchar" MaxLength="100" />
+          <Property Name="HallName" Type="nvarchar" MaxLength="100" />
+          <Property Name="Remarks" Type="nvarchar" MaxLength="500" />
+          <Property Name="Kashrut" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Joys">
+          <Key>
+            <PropertyRef Name="Joy" />
+          </Key>
+          <Property Name="Joy" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameJoy" Type="nvarchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="JoysOwner">
+          <Key>
+            <PropertyRef Name="JoyOwner" />
+          </Key>
+          <Property Name="JoyOwner" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameOwnerJoy" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmailOwnerJoys" Type="varchar" MaxLength="50" />
+          <Property Name="PasswordOwnerJoys" Type="varchar" MaxLength="9" />
+          <Property Name="IDOwnerJoys" Type="varchar" MaxLength="10" />
+          <Property Name="PhoneJoysOwner" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="JoysOwnerHall">
+          <Key>
+            <PropertyRef Name="JoyOwnerHall" />
+          </Key>
+          <Property Name="JoyOwnerHall" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Joy" Type="int" Nullable="false" />
+          <Property Name="Owners" Type="int" Nullable="false" />
+          <Property Name="SearchBaseDate" Type="date" />
+          <Property Name="SearchCeilingDate" Type="date" />
+          <Property Name="SeveralPlaces" Type="int" />
+          <Property Name="IsAccessibilityLevel" Type="bit" />
+          <Property Name="IsParking" Type="bit" />
+          <Property Name="PlacementDate" Type="date" />
+          <Property Name="Hall" Type="int" Nullable="false" />
+          <Property Name="CeilingPrice" Type="int" />
+          <Property Name="ChatanName" Type="nvarchar" MaxLength="100" />
+          <Property Name="CalaName" Type="nvarchar" MaxLength="100" />
+          <Property Name="Seminar" Type="nvarchar" MaxLength="100" />
+          <Property Name="YeshivaName" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <Association Name="FK_JoysOwnerHall_JoysOwner">
+          <End Role="JoysOwner" Type="Self.JoysOwner" Multiplicity="1" />
+          <End Role="JoysOwnerHall" Type="Self.JoysOwnerHall" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="JoysOwner">
+              <PropertyRef Name="JoyOwner" />
+            </Principal>
+            <Dependent Role="JoysOwnerHall">
+              <PropertyRef Name="Owners" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="HallFK">
+          <End Role="HallToTheHallOwner" Type="Self.HallToTheHallOwner" Multiplicity="1" />
+          <End Role="HallPriceList" Type="Self.HallPriceList" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HallToTheHallOwner">
+              <PropertyRef Name="Hall" />
+            </Principal>
+            <Dependent Role="HallPriceList">
+              <PropertyRef Name="Hall" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="HallFK_">
+          <End Role="HallToTheHallOwner" Type="Self.HallToTheHallOwner" Multiplicity="1" />
+          <End Role="JoysOwnerHall" Type="Self.JoysOwnerHall" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HallToTheHallOwner">
+              <PropertyRef Name="Hall" />
+            </Principal>
+            <Dependent Role="JoysOwnerHall">
+              <PropertyRef Name="Hall" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="HallOwnersFK">
+          <End Role="HallOwner" Type="Self.HallOwner" Multiplicity="1" />
+          <End Role="HallPriceList" Type="Self.HallPriceList" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HallOwner">
+              <PropertyRef Name="Owners" />
+            </Principal>
+            <Dependent Role="HallPriceList">
+              <PropertyRef Name="Owners" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="JoyFK">
+          <End Role="Joys" Type="Self.Joys" Multiplicity="1" />
+          <End Role="HallPriceList" Type="Self.HallPriceList" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Joys">
+              <PropertyRef Name="Joy" />
+            </Principal>
+            <Dependent Role="HallPriceList">
+              <PropertyRef Name="Joy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="JoyFK_">
+          <End Role="Joys" Type="Self.Joys" Multiplicity="1" />
+          <End Role="JoysOwnerHall" Type="Self.JoysOwnerHall" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Joys">
+              <PropertyRef Name="Joy" />
+            </Principal>
+            <Dependent Role="JoysOwnerHall">
+              <PropertyRef Name="Joy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="OwnersFK">
+          <End Role="HallOwner" Type="Self.HallOwner" Multiplicity="1" />
+          <End Role="HallToTheHallOwner" Type="Self.HallToTheHallOwner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HallOwner">
+              <PropertyRef Name="Owners" />
+            </Principal>
+            <Dependent Role="HallToTheHallOwner">
+              <PropertyRef Name="Owners" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EventsModelStoreContainer">
+          <EntitySet Name="HallOwner" EntityType="Self.HallOwner" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="HallPriceList" EntityType="Self.HallPriceList" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="HallToTheHallOwner" EntityType="Self.HallToTheHallOwner" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Joys" EntityType="Self.Joys" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="JoysOwner" EntityType="Self.JoysOwner" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="JoysOwnerHall" EntityType="Self.JoysOwnerHall" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_JoysOwnerHall_JoysOwner" Association="Self.FK_JoysOwnerHall_JoysOwner">
+            <End Role="JoysOwner" EntitySet="JoysOwner" />
+            <End Role="JoysOwnerHall" EntitySet="JoysOwnerHall" />
+          </AssociationSet>
+          <AssociationSet Name="HallFK" Association="Self.HallFK">
+            <End Role="HallToTheHallOwner" EntitySet="HallToTheHallOwner" />
+            <End Role="HallPriceList" EntitySet="HallPriceList" />
+          </AssociationSet>
+          <AssociationSet Name="HallFK_" Association="Self.HallFK_">
+            <End Role="HallToTheHallOwner" EntitySet="HallToTheHallOwner" />
+            <End Role="JoysOwnerHall" EntitySet="JoysOwnerHall" />
+          </AssociationSet>
+          <AssociationSet Name="HallOwnersFK" Association="Self.HallOwnersFK">
+            <End Role="HallOwner" EntitySet="HallOwner" />
+            <End Role="HallPriceList" EntitySet="HallPriceList" />
+          </AssociationSet>
+          <AssociationSet Name="JoyFK" Association="Self.JoyFK">
+            <End Role="Joys" EntitySet="Joys" />
+            <End Role="HallPriceList" EntitySet="HallPriceList" />
+          </AssociationSet>
+          <AssociationSet Name="JoyFK_" Association="Self.JoyFK_">
+            <End Role="Joys" EntitySet="Joys" />
+            <End Role="JoysOwnerHall" EntitySet="JoysOwnerHall" />
+          </AssociationSet>
+          <AssociationSet Name="OwnersFK" Association="Self.OwnersFK">
+            <End Role="HallOwner" EntitySet="HallOwner" />
+            <End Role="HallToTheHallOwner" EntitySet="HallToTheHallOwner" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EventsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="HallOwner">
+          <Key>
+            <PropertyRef Name="Owners" />
+          </Key>
+          <Property Name="Owners" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameOwners" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CreditCardNumber" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Validity" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="back3Digits" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PasswordHallOwner" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Name="IdHallOwner" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="HallPriceLists" Relationship="Self.HallOwnersFK" FromRole="HallOwner" ToRole="HallPriceList" />
+          <NavigationProperty Name="HallToTheHallOwners" Relationship="Self.OwnersFK" FromRole="HallOwner" ToRole="HallToTheHallOwner" />
+        </EntityType>
+        <EntityType Name="HallPriceList">
+          <Key>
+            <PropertyRef Name="PriceList" />
+          </Key>
+          <Property Name="PriceList" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Owners" Type="Int32" Nullable="false" />
+          <Property Name="Hall" Type="Int32" Nullable="false" />
+          <Property Name="Joy" Type="Int32" Nullable="false" />
+          <Property Name="BasePrice" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Popularity" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="HallOwner" Relationship="Self.HallOwnersFK" FromRole="HallPriceList" ToRole="HallOwner" />
+          <NavigationProperty Name="HallToTheHallOwner" Relationship="Self.HallFK" FromRole="HallPriceList" ToRole="HallToTheHallOwner" />
+          <NavigationProperty Name="Joy1" Relationship="Self.JoyFK" FromRole="HallPriceList" ToRole="Joys" />
+        </EntityType>
+        <EntityType Name="HallToTheHallOwner">
+          <Key>
+            <PropertyRef Name="Hall" />
+          </Key>
+          <Property Name="Hall" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Owners" Type="Int32" Nullable="false" />
+          <Property Name="LocationHall" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MaximumNumberOfPlaces" Type="Int32" Nullable="false" />
+          <Property Name="Stars" Type="Int32" Nullable="false" />
+          <Property Name="MinimumPlacesToBook" Type="Int32" Nullable="false" />
+          <Property Name="image1" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="image2" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="image3" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="IsAccessibilityLevel" Type="Boolean" />
+          <Property Name="IsParking" Type="Boolean" />
+          <Property Name="Street" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="City" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="HallName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Remarks" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Kashrut" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="HallOwner" Relationship="Self.OwnersFK" FromRole="HallToTheHallOwner" ToRole="HallOwner" />
+          <NavigationProperty Name="HallPriceLists" Relationship="Self.HallFK" FromRole="HallToTheHallOwner" ToRole="HallPriceList" />
+          <NavigationProperty Name="JoysOwnerHalls" Relationship="Self.HallFK_" FromRole="HallToTheHallOwner" ToRole="JoysOwnerHall" />
+        </EntityType>
+        <EntityType Name="Joy">
+          <Key>
+            <PropertyRef Name="Joy1" />
+          </Key>
+          <Property Name="Joy1" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameJoy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="HallPriceLists" Relationship="Self.JoyFK" FromRole="Joys" ToRole="HallPriceList" />
+          <NavigationProperty Name="JoysOwnerHalls" Relationship="Self.JoyFK_" FromRole="Joys" ToRole="JoysOwnerHall" />
+        </EntityType>
+        <EntityType Name="JoysOwner">
+          <Key>
+            <PropertyRef Name="JoyOwner" />
+          </Key>
+          <Property Name="JoyOwner" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameOwnerJoy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="EmailOwnerJoys" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PasswordOwnerJoys" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Name="IDOwnerJoys" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="PhoneJoysOwner" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="JoysOwnerHalls" Relationship="Self.FK_JoysOwnerHall_JoysOwner" FromRole="JoysOwner" ToRole="JoysOwnerHall" />
+        </EntityType>
+        <EntityType Name="JoysOwnerHall">
+          <Key>
+            <PropertyRef Name="JoyOwnerHall" />
+          </Key>
+          <Property Name="JoyOwnerHall" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Joy" Type="Int32" Nullable="false" />
+          <Property Name="Owners" Type="Int32" Nullable="false" />
+          <Property Name="SearchBaseDate" Type="DateTime" Precision="0" />
+          <Property Name="SearchCeilingDate" Type="DateTime" Precision="0" />
+          <Property Name="SeveralPlaces" Type="Int32" />
+          <Property Name="IsAccessibilityLevel" Type="Boolean" />
+          <Property Name="IsParking" Type="Boolean" />
+          <Property Name="PlacementDate" Type="DateTime" Precision="0" />
+          <Property Name="Hall" Type="Int32" Nullable="false" />
+          <Property Name="CeilingPrice" Type="Int32" />
+          <Property Name="ChatanName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CalaName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Seminar" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="YeshivaName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="HallToTheHallOwner" Relationship="Self.HallFK_" FromRole="JoysOwnerHall" ToRole="HallToTheHallOwner" />
+          <NavigationProperty Name="Joy1" Relationship="Self.JoyFK_" FromRole="JoysOwnerHall" ToRole="Joys" />
+          <NavigationProperty Name="JoysOwner" Relationship="Self.FK_JoysOwnerHall_JoysOwner" FromRole="JoysOwnerHall" ToRole="JoysOwner" />
+        </EntityType>
+        <Association Name="HallOwnersFK">
+          <End Role="HallOwner" Type="Self.HallOwner" Multiplicity="1" />
+          <End Role="HallPriceList" Type="Self.HallPriceList" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HallOwner">
+              <PropertyRef Name="Owners" />
+            </Principal>
+            <Dependent Role="HallPriceList">
+              <PropertyRef Name="Owners" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="OwnersFK">
+          <End Role="HallOwner" Type="Self.HallOwner" Multiplicity="1" />
+          <End Role="HallToTheHallOwner" Type="Self.HallToTheHallOwner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HallOwner">
+              <PropertyRef Name="Owners" />
+            </Principal>
+            <Dependent Role="HallToTheHallOwner">
+              <PropertyRef Name="Owners" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="HallFK">
+          <End Role="HallToTheHallOwner" Type="Self.HallToTheHallOwner" Multiplicity="1" />
+          <End Role="HallPriceList" Type="Self.HallPriceList" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HallToTheHallOwner">
+              <PropertyRef Name="Hall" />
+            </Principal>
+            <Dependent Role="HallPriceList">
+              <PropertyRef Name="Hall" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="JoyFK">
+          <End Role="Joys" Type="Self.Joy" Multiplicity="1" />
+          <End Role="HallPriceList" Type="Self.HallPriceList" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Joys">
+              <PropertyRef Name="Joy1" />
+            </Principal>
+            <Dependent Role="HallPriceList">
+              <PropertyRef Name="Joy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="HallFK_">
+          <End Role="HallToTheHallOwner" Type="Self.HallToTheHallOwner" Multiplicity="1" />
+          <End Role="JoysOwnerHall" Type="Self.JoysOwnerHall" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HallToTheHallOwner">
+              <PropertyRef Name="Hall" />
+            </Principal>
+            <Dependent Role="JoysOwnerHall">
+              <PropertyRef Name="Hall" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="JoyFK_">
+          <End Role="Joys" Type="Self.Joy" Multiplicity="1" />
+          <End Role="JoysOwnerHall" Type="Self.JoysOwnerHall" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Joys">
+              <PropertyRef Name="Joy1" />
+            </Principal>
+            <Dependent Role="JoysOwnerHall">
+              <PropertyRef Name="Joy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_JoysOwnerHall_JoysOwner">
+          <End Role="JoysOwner" Type="Self.JoysOwner" Multiplicity="1" />
+          <End Role="JoysOwnerHall" Type="Self.JoysOwnerHall" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="JoysOwner">
+              <PropertyRef Name="JoyOwner" />
+            </Principal>
+            <Dependent Role="JoysOwnerHall">
+              <PropertyRef Name="Owners" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EventsEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="HallOwners" EntityType="Self.HallOwner" />
+          <EntitySet Name="HallPriceLists" EntityType="Self.HallPriceList" />
+          <EntitySet Name="HallToTheHallOwners" EntityType="Self.HallToTheHallOwner" />
+          <EntitySet Name="Joys" EntityType="Self.Joy" />
+          <EntitySet Name="JoysOwners" EntityType="Self.JoysOwner" />
+          <EntitySet Name="JoysOwnerHalls" EntityType="Self.JoysOwnerHall" />
+          <AssociationSet Name="HallOwnersFK" Association="Self.HallOwnersFK">
+            <End Role="HallOwner" EntitySet="HallOwners" />
+            <End Role="HallPriceList" EntitySet="HallPriceLists" />
+          </AssociationSet>
+          <AssociationSet Name="OwnersFK" Association="Self.OwnersFK">
+            <End Role="HallOwner" EntitySet="HallOwners" />
+            <End Role="HallToTheHallOwner" EntitySet="HallToTheHallOwners" />
+          </AssociationSet>
+          <AssociationSet Name="HallFK" Association="Self.HallFK">
+            <End Role="HallToTheHallOwner" EntitySet="HallToTheHallOwners" />
+            <End Role="HallPriceList" EntitySet="HallPriceLists" />
+          </AssociationSet>
+          <AssociationSet Name="JoyFK" Association="Self.JoyFK">
+            <End Role="Joys" EntitySet="Joys" />
+            <End Role="HallPriceList" EntitySet="HallPriceLists" />
+          </AssociationSet>
+          <AssociationSet Name="HallFK_" Association="Self.HallFK_">
+            <End Role="HallToTheHallOwner" EntitySet="HallToTheHallOwners" />
+            <End Role="JoysOwnerHall" EntitySet="JoysOwnerHalls" />
+          </AssociationSet>
+          <AssociationSet Name="JoyFK_" Association="Self.JoyFK_">
+            <End Role="Joys" EntitySet="Joys" />
+            <End Role="JoysOwnerHall" EntitySet="JoysOwnerHalls" />
+          </AssociationSet>
+          <AssociationSet Name="FK_JoysOwnerHall_JoysOwner" Association="Self.FK_JoysOwnerHall_JoysOwner">
+            <End Role="JoysOwner" EntitySet="JoysOwners" />
+            <End Role="JoysOwnerHall" EntitySet="JoysOwnerHalls" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EventsModelStoreContainer" CdmEntityContainer="EventsEntities">
+          <EntitySetMapping Name="HallOwners">
+            <EntityTypeMapping TypeName="EventsModel.HallOwner">
+              <MappingFragment StoreEntitySet="HallOwner">
+                <ScalarProperty Name="Owners" ColumnName="Owners" />
+                <ScalarProperty Name="NameOwners" ColumnName="NameOwners" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="CreditCardNumber" ColumnName="CreditCardNumber" />
+                <ScalarProperty Name="Validity" ColumnName="Validity" />
+                <ScalarProperty Name="back3Digits" ColumnName="back3Digits" />
+                <ScalarProperty Name="PasswordHallOwner" ColumnName="PasswordHallOwner" />
+                <ScalarProperty Name="IdHallOwner" ColumnName="IdHallOwner" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="HallPriceLists">
+            <EntityTypeMapping TypeName="EventsModel.HallPriceList">
+              <MappingFragment StoreEntitySet="HallPriceList">
+                <ScalarProperty Name="PriceList" ColumnName="PriceList" />
+                <ScalarProperty Name="Owners" ColumnName="Owners" />
+                <ScalarProperty Name="Hall" ColumnName="Hall" />
+                <ScalarProperty Name="Joy" ColumnName="Joy" />
+                <ScalarProperty Name="BasePrice" ColumnName="BasePrice" />
+                <ScalarProperty Name="Popularity" ColumnName="Popularity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="HallToTheHallOwners">
+            <EntityTypeMapping TypeName="EventsModel.HallToTheHallOwner">
+              <MappingFragment StoreEntitySet="HallToTheHallOwner">
+                <ScalarProperty Name="Hall" ColumnName="Hall" />
+                <ScalarProperty Name="Owners" ColumnName="Owners" />
+                <ScalarProperty Name="LocationHall" ColumnName="LocationHall" />
+                <ScalarProperty Name="MaximumNumberOfPlaces" ColumnName="MaximumNumberOfPlaces" />
+                <ScalarProperty Name="Stars" ColumnName="Stars" />
+                <ScalarProperty Name="MinimumPlacesToBook" ColumnName="MinimumPlacesToBook" />
+                <ScalarProperty Name="image1" ColumnName="image1" />
+                <ScalarProperty Name="image2" ColumnName="image2" />
+                <ScalarProperty Name="image3" ColumnName="image3" />
+                <ScalarProperty Name="IsAccessibilityLevel" ColumnName="IsAccessibilityLevel" />
+                <ScalarProperty Name="IsParking" ColumnName="IsParking" />
+                <ScalarProperty Name="Street" ColumnName="Street" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="HallName" ColumnName="HallName" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="Kashrut" ColumnName="Kashrut" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Joys">
+            <EntityTypeMapping TypeName="EventsModel.Joy">
+              <MappingFragment StoreEntitySet="Joys">
+                <ScalarProperty Name="Joy1" ColumnName="Joy" />
+                <ScalarProperty Name="NameJoy" ColumnName="NameJoy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="JoysOwners">
+            <EntityTypeMapping TypeName="EventsModel.JoysOwner">
+              <MappingFragment StoreEntitySet="JoysOwner">
+                <ScalarProperty Name="JoyOwner" ColumnName="JoyOwner" />
+                <ScalarProperty Name="NameOwnerJoy" ColumnName="NameOwnerJoy" />
+                <ScalarProperty Name="EmailOwnerJoys" ColumnName="EmailOwnerJoys" />
+                <ScalarProperty Name="PasswordOwnerJoys" ColumnName="PasswordOwnerJoys" />
+                <ScalarProperty Name="IDOwnerJoys" ColumnName="IDOwnerJoys" />
+                <ScalarProperty Name="PhoneJoysOwner" ColumnName="PhoneJoysOwner" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="JoysOwnerHalls">
+            <EntityTypeMapping TypeName="EventsModel.JoysOwnerHall">
+              <MappingFragment StoreEntitySet="JoysOwnerHall">
+                <ScalarProperty Name="JoyOwnerHall" ColumnName="JoyOwnerHall" />
+                <ScalarProperty Name="Joy" ColumnName="Joy" />
+                <ScalarProperty Name="Owners" ColumnName="Owners" />
+                <ScalarProperty Name="SearchBaseDate" ColumnName="SearchBaseDate" />
+                <ScalarProperty Name="SearchCeilingDate" ColumnName="SearchCeilingDate" />
+                <ScalarProperty Name="SeveralPlaces" ColumnName="SeveralPlaces" />
+                <ScalarProperty Name="IsAccessibilityLevel" ColumnName="IsAccessibilityLevel" />
+                <ScalarProperty Name="IsParking" ColumnName="IsParking" />
+                <ScalarProperty Name="PlacementDate" ColumnName="PlacementDate" />
+                <ScalarProperty Name="Hall" ColumnName="Hall" />
+                <ScalarProperty Name="CeilingPrice" ColumnName="CeilingPrice" />
+                <ScalarProperty Name="ChatanName" ColumnName="ChatanName" />
+                <ScalarProperty Name="CalaName" ColumnName="CalaName" />
+                <ScalarProperty Name="Seminar" ColumnName="Seminar" />
+                <ScalarProperty Name="YeshivaName" ColumnName="YeshivaName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

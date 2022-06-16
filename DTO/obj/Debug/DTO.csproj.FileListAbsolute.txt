@@ -1,0 +1,31 @@
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DTO\bin\Debug\DTO.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DTO\bin\Debug\DTO.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DTO\obj\Debug\DTO.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\DTO\obj\Debug\DTO.pdb
+D:\EventsProject\DTO\bin\Debug\DTO.dll
+D:\EventsProject\DTO\bin\Debug\DTO.pdb
+D:\EventsProject\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\EventsProject\DTO\obj\Debug\DTO.dll
+D:\EventsProject\DTO\obj\Debug\DTO.pdb
+E:\פרויקט גמר\EventsProject\DTO\bin\Debug\DTO.dll
+E:\פרויקט גמר\EventsProject\DTO\bin\Debug\DTO.pdb
+E:\פרויקט גמר\EventsProject\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\פרויקט גמר\EventsProject\DTO\obj\Debug\DTO.dll
+E:\פרויקט גמר\EventsProject\DTO\obj\Debug\DTO.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\DTO\bin\Debug\DTO.dll
+C:\שנה ב\פרויקט גמר\EventsProject\DTO\bin\Debug\DTO.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\DTO\obj\Debug\DTO.dll
+C:\שנה ב\פרויקט גמר\EventsProject\DTO\obj\Debug\DTO.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+F:\12 06\EventsProject\DTO\bin\Debug\DTO.dll
+F:\12 06\EventsProject\DTO\bin\Debug\DTO.pdb
+F:\12 06\EventsProject\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+F:\12 06\EventsProject\DTO\obj\Debug\DTO.dll
+F:\12 06\EventsProject\DTO\obj\Debug\DTO.pdb
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DTO\bin\Debug\DTO.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DTO\bin\Debug\DTO.pdb
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DTO\obj\Debug\DTO.dll
+C:\שנה ב\פרויקט גמר\15 06\EventsProject\DTO\obj\Debug\DTO.pdb

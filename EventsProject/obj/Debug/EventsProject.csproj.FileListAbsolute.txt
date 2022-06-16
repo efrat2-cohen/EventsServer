@@ -1,0 +1,122 @@
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EventsProject.exe.config
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EventsProject.exe
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EventsProject.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\BL.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\BL.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.Form1.resources
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.Properties.Resources.resources
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.GenerateResource.cache
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.CoreCompileInputs.cache
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.CopyComplete
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.exe
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.AssemblyReference.cache
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.OpenForm.resources
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.LoginForm.resources
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DTO.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DAL.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EntityFramework.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DTO.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DAL.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DAL.dll.config
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EntityFramework.xml
+D:\EventsProject\EventsProject\bin\Debug\EventsProject.exe.config
+D:\EventsProject\EventsProject\bin\Debug\EventsProject.exe
+D:\EventsProject\EventsProject\bin\Debug\EventsProject.pdb
+D:\EventsProject\EventsProject\bin\Debug\BL.dll
+D:\EventsProject\EventsProject\bin\Debug\DTO.dll
+D:\EventsProject\EventsProject\bin\Debug\DAL.dll
+D:\EventsProject\EventsProject\bin\Debug\EntityFramework.dll
+D:\EventsProject\EventsProject\bin\Debug\BL.pdb
+D:\EventsProject\EventsProject\bin\Debug\DTO.pdb
+D:\EventsProject\EventsProject\bin\Debug\DAL.pdb
+D:\EventsProject\EventsProject\bin\Debug\DAL.dll.config
+D:\EventsProject\EventsProject\bin\Debug\EntityFramework.xml
+D:\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.AssemblyReference.cache
+D:\EventsProject\EventsProject\obj\Debug\EventsProject.Form1.resources
+D:\EventsProject\EventsProject\obj\Debug\EventsProject.LoginForm.resources
+D:\EventsProject\EventsProject\obj\Debug\EventsProject.OpenForm.resources
+D:\EventsProject\EventsProject\obj\Debug\EventsProject.Properties.Resources.resources
+D:\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.GenerateResource.cache
+D:\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.CoreCompileInputs.cache
+D:\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.CopyComplete
+D:\EventsProject\EventsProject\obj\Debug\EventsProject.exe
+D:\EventsProject\EventsProject\obj\Debug\EventsProject.pdb
+D:\EventsProject\EventsProject\bin\Debug\EntityFramework.SqlServer.dll
+D:\EventsProject\EventsProject\bin\Debug\EntityFramework.SqlServer.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EntityFramework.SqlServer.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EntityFramework.SqlServer.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.SearchHallsForm.resources
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EventsProject.exe.config
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EventsProject.exe
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EventsProject.pdb
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\BL.dll
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DTO.dll
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EntityFramework.dll
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EntityFramework.SqlServer.dll
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DAL.dll
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\BL.pdb
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DTO.pdb
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EntityFramework.xml
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EntityFramework.SqlServer.xml
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DAL.pdb
+E:\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DAL.dll.config
+E:\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.csprojAssemblyReference.cache
+E:\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.Form1.resources
+E:\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.LoginForm.resources
+E:\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.OpenForm.resources
+E:\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.Properties.Resources.resources
+E:\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.SearchHallsForm.resources
+E:\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.GenerateResource.cache
+E:\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.CopyComplete
+E:\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.exe
+E:\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EventsProject.exe.config
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EventsProject.exe
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EventsProject.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\BL.dll
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DTO.dll
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EntityFramework.dll
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DAL.dll
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\BL.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DTO.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EntityFramework.xml
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DAL.pdb
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\bin\Debug\DAL.dll.config
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.csprojAssemblyReference.cache
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.Form1.resources
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.LoginForm.resources
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.OpenForm.resources
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.Properties.Resources.resources
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.SearchHallsForm.resources
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.GenerateResource.cache
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.CopyComplete
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.exe
+C:\שנה ב\פרויקט גמר\EventsProject\EventsProject\obj\Debug\EventsProject.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\EventsProject.exe.config
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\EventsProject.exe
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\EventsProject.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\BL.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\DTO.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\EntityFramework.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\EntityFramework.SqlServer.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\DAL.dll
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\BL.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\DTO.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\EntityFramework.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\EntityFramework.SqlServer.xml
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\DAL.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\bin\Debug\DAL.dll.config
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.Form1.resources
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.LoginForm.resources
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.OpenForm.resources
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.Properties.Resources.resources
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.SearchHallsForm.resources
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.GenerateResource.cache
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.CoreCompileInputs.cache
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.CopyComplete
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.exe
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.pdb
+Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.AssemblyReference.cache

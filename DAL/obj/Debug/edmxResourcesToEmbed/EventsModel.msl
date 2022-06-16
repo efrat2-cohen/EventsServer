@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EventsModelStoreContainer" CdmEntityContainer="EventsEntities">
+    <EntitySetMapping Name="HallOwners">
+      <EntityTypeMapping TypeName="EventsModel.HallOwner">
+        <MappingFragment StoreEntitySet="HallOwner">
+          <ScalarProperty Name="Owners" ColumnName="Owners" />
+          <ScalarProperty Name="NameOwners" ColumnName="NameOwners" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="CreditCardNumber" ColumnName="CreditCardNumber" />
+          <ScalarProperty Name="Validity" ColumnName="Validity" />
+          <ScalarProperty Name="back3Digits" ColumnName="back3Digits" />
+          <ScalarProperty Name="PasswordHallOwner" ColumnName="PasswordHallOwner" />
+          <ScalarProperty Name="IdHallOwner" ColumnName="IdHallOwner" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HallPriceLists">
+      <EntityTypeMapping TypeName="EventsModel.HallPriceList">
+        <MappingFragment StoreEntitySet="HallPriceList">
+          <ScalarProperty Name="PriceList" ColumnName="PriceList" />
+          <ScalarProperty Name="Owners" ColumnName="Owners" />
+          <ScalarProperty Name="Hall" ColumnName="Hall" />
+          <ScalarProperty Name="Joy" ColumnName="Joy" />
+          <ScalarProperty Name="BasePrice" ColumnName="BasePrice" />
+          <ScalarProperty Name="Popularity" ColumnName="Popularity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HallToTheHallOwners">
+      <EntityTypeMapping TypeName="EventsModel.HallToTheHallOwner">
+        <MappingFragment StoreEntitySet="HallToTheHallOwner">
+          <ScalarProperty Name="Hall" ColumnName="Hall" />
+          <ScalarProperty Name="Owners" ColumnName="Owners" />
+          <ScalarProperty Name="LocationHall" ColumnName="LocationHall" />
+          <ScalarProperty Name="MaximumNumberOfPlaces" ColumnName="MaximumNumberOfPlaces" />
+          <ScalarProperty Name="Stars" ColumnName="Stars" />
+          <ScalarProperty Name="MinimumPlacesToBook" ColumnName="MinimumPlacesToBook" />
+          <ScalarProperty Name="image1" ColumnName="image1" />
+          <ScalarProperty Name="image2" ColumnName="image2" />
+          <ScalarProperty Name="image3" ColumnName="image3" />
+          <ScalarProperty Name="IsAccessibilityLevel" ColumnName="IsAccessibilityLevel" />
+          <ScalarProperty Name="IsParking" ColumnName="IsParking" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="HallName" ColumnName="HallName" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="Kashrut" ColumnName="Kashrut" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Joys">
+      <EntityTypeMapping TypeName="EventsModel.Joy">
+        <MappingFragment StoreEntitySet="Joys">
+          <ScalarProperty Name="Joy1" ColumnName="Joy" />
+          <ScalarProperty Name="NameJoy" ColumnName="NameJoy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JoysOwners">
+      <EntityTypeMapping TypeName="EventsModel.JoysOwner">
+        <MappingFragment StoreEntitySet="JoysOwner">
+          <ScalarProperty Name="JoyOwner" ColumnName="JoyOwner" />
+          <ScalarProperty Name="NameOwnerJoy" ColumnName="NameOwnerJoy" />
+          <ScalarProperty Name="EmailOwnerJoys" ColumnName="EmailOwnerJoys" />
+          <ScalarProperty Name="PasswordOwnerJoys" ColumnName="PasswordOwnerJoys" />
+          <ScalarProperty Name="IDOwnerJoys" ColumnName="IDOwnerJoys" />
+          <ScalarProperty Name="PhoneJoysOwner" ColumnName="PhoneJoysOwner" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JoysOwnerHalls">
+      <EntityTypeMapping TypeName="EventsModel.JoysOwnerHall">
+        <MappingFragment StoreEntitySet="JoysOwnerHall">
+          <ScalarProperty Name="JoyOwnerHall" ColumnName="JoyOwnerHall" />
+          <ScalarProperty Name="Joy" ColumnName="Joy" />
+          <ScalarProperty Name="Owners" ColumnName="Owners" />
+          <ScalarProperty Name="SearchBaseDate" ColumnName="SearchBaseDate" />
+          <ScalarProperty Name="SearchCeilingDate" ColumnName="SearchCeilingDate" />
+          <ScalarProperty Name="SeveralPlaces" ColumnName="SeveralPlaces" />
+          <ScalarProperty Name="IsAccessibilityLevel" ColumnName="IsAccessibilityLevel" />
+          <ScalarProperty Name="IsParking" ColumnName="IsParking" />
+          <ScalarProperty Name="PlacementDate" ColumnName="PlacementDate" />
+          <ScalarProperty Name="Hall" ColumnName="Hall" />
+          <ScalarProperty Name="CeilingPrice" ColumnName="CeilingPrice" />
+          <ScalarProperty Name="ChatanName" ColumnName="ChatanName" />
+          <ScalarProperty Name="CalaName" ColumnName="CalaName" />
+          <ScalarProperty Name="Seminar" ColumnName="Seminar" />
+          <ScalarProperty Name="YeshivaName" ColumnName="YeshivaName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
