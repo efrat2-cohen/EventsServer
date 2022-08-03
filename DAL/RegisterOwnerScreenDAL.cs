@@ -10,8 +10,8 @@ namespace DAL
     {
         public bool RegisterOwner(HallOwner hallOwner)
         {
-            LoginOwnerScreenDAL loginOwnerScreenDAL = new LoginOwnerScreenDAL();
-            if (loginOwnerScreenDAL.CheckEmailOwner(hallOwner.Email) == false)
+            LoginOwnerScreenDAL loginOwnerScreen = new LoginOwnerScreenDAL();
+            if(loginOwnerScreen.CheckEmailOwner(hallOwner.Email) == false)
             {
                 using (EventsEntities ctx = new EventsEntities())
                 {

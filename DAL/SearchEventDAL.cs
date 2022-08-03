@@ -182,5 +182,22 @@ namespace DAL
                 }
             }
         }
+
+        public List<HallToTheHallOwner> GetListHall()
+        {
+            List<HallToTheHallOwner> hallsList = new List<HallToTheHallOwner>();
+            try
+            {
+                using (EventsEntities ctx = new EventsEntities())
+                {
+                    hallsList = ctx.HallToTheHallOwners.Include(s => s.HallOwner).ToList();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return hallsList; 
+        }
     }
 }

@@ -10,8 +10,8 @@ namespace DAL
     {
         public bool RegisterEvent(JoysOwner joysOwner)
         {
-            LoginEventScreenDAL loginEventScreenDAL = new LoginEventScreenDAL();
-            if (loginEventScreenDAL.CheckEmailEvent(joysOwner.EmailOwnerJoys) == false)
+            LoginEventScreenDAL loginEventScreen = new LoginEventScreenDAL();
+            if(loginEventScreen.CheckEmailEvent(joysOwner.EmailOwnerJoys) == false)
             {
                 using (EventsEntities ctx = new EventsEntities())
                 {

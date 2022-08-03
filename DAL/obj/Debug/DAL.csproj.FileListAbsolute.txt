@@ -78,3 +78,14 @@ C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\obj\Debug\DAL.csprojAss
 C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\obj\Debug\DAL.dll
 C:\שנה ב\פרויקט גמר\15 06\EventsProject\DAL\obj\Debug\DAL.pdb
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\bin\Debug\DAL.dll.config
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\bin\Debug\DAL.dll
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\bin\Debug\DAL.pdb
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\bin\Debug\EntityFramework.dll
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\bin\Debug\EntityFramework.xml
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\obj\Debug\DAL.dll
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\obj\Debug\DAL.pdb

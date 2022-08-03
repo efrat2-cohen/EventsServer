@@ -16,6 +16,11 @@ namespace BL
                     return convert.Convert(new DAL.SearchEventDAL().MenegerSearch(convert.Convert(hallToTheHallOwnerDTO), dateTime, BasePrice));
                 else return null;
             return convert.Convert(new DAL.SearchEventDAL().MenegerSearch(null, dateTime, BasePrice));
-        } 
+        }
+        public List<DTO.HallToTheHallOwnerDTO> GetListHalls()
+        {
+            Converts convert = new Converts();
+            return convert.Convert(new DAL.SearchEventDAL().GetListHall());
+        }
     }
 }

@@ -20,11 +20,11 @@ namespace EventsProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //string email = textBox1.Text;
-            //string password = textBox2.Text;
-            //if (new BL.LoginEventBL().Login(email,password)==true)//true -> password exist  
-            //    new SearchHallsForm().Show();
-            //else new LoginForm().Show();
+            string email = textBox1.Text;
+            string password = textBox2.Text;
+            if (new BL.LoginEventBL().LoginEvent(email, password) == true)//true -> password exist  
+                new SearchHallsForm().Show();
+            else new LoginForm().Show();
         }
     }
 }

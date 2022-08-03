@@ -16,7 +16,7 @@ namespace API.Controllers
         {
             if (new BL.LoginOwnerBL().LoginOwner(email) == true)//email exist->user exist
                 if (new BL.LoginOwnerBL().LoginOwner(email, password) == true)
-                    return Ok();
+                    return Ok(); 
                 else
                     return Conflict();//wrong password
             return NotFound();//user is not exist

@@ -120,3 +120,27 @@ Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsP
 Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.exe
 Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.pdb
 Y:\שנת פב\2\כהן אפרת\פרויקט גמר\08 06\EventsProject\EventsProject\obj\Debug\EventsProject.csproj.AssemblyReference.cache
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\EventsProject.exe.config
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\EventsProject.exe
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\EventsProject.pdb
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\BL.dll
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\DTO.dll
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\EntityFramework.dll
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\DAL.dll
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\BL.pdb
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\DTO.pdb
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\EntityFramework.xml
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\DAL.pdb
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\bin\Debug\DAL.dll.config
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\obj\Debug\EventsProject.csprojAssemblyReference.cache
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\obj\Debug\EventsProject.Form1.resources
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\obj\Debug\EventsProject.LoginForm.resources
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\obj\Debug\EventsProject.OpenForm.resources
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\obj\Debug\EventsProject.Properties.Resources.resources
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\obj\Debug\EventsProject.SearchHallsForm.resources
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\obj\Debug\EventsProject.csproj.GenerateResource.cache
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\obj\Debug\EventsProject.csproj.CopyComplete
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\obj\Debug\EventsProject.exe
+C:\שנה ב\פרויקט גמר\27 07\EventsServer\EventsProject\obj\Debug\EventsProject.pdb
