@@ -18,16 +18,24 @@ namespace API.Controllers
             return new BL.SearchHallBL().SearchHalls(hallToTheHallOwnerDTO, dateTime, BasePrice);
         }
         // GET: api/SearchHall
+       
+        //[Route("api/SearchHall/Get")]
+        //public IHttpActionResult Get()
+        //{
+        //    return Ok();
+        //}
+        [HttpGet]
         public List<DTO.HallToTheHallOwnerDTO> Get()
         {
-            return new BL.SearchHallBL().GetListHalls(); 
+            var x = new BL.SearchHallBL().GetListHalls();
+            return x;
         }
 
         // GET: api/SearchHall/5
-        public string Get(int id)
-        {
-            return "value";
-        }
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
 
         // POST: api/SearchHall
         public void Post([FromBody]string value)
