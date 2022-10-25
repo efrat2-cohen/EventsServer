@@ -89,3 +89,15 @@ C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\obj\Debug\DAL.csprojAsse
 C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\obj\Debug\DAL.dll
 C:\שנה ב\פרויקט גמר\27 07\EventsServer\DAL\obj\Debug\DAL.pdb
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DAL\bin\Debug\DAL.dll.config
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DAL\bin\Debug\DAL.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DAL\bin\Debug\DAL.pdb
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DAL\bin\Debug\EntityFramework.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DAL\bin\Debug\EntityFramework.xml
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DAL\obj\Debug\DAL.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DAL\obj\Debug\DAL.pdb

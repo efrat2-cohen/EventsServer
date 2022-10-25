@@ -16,7 +16,7 @@ namespace BL
 
         public bool LoginEvent(string email)
         {
-            return new DAL.LoginEventScreenDAL().CheckEmailEvent(email);
+            return new DAL.LoginEventScreenDAL().IsEmailExist(email);
         }
 
     }

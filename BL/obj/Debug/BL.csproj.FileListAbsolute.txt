@@ -150,3 +150,26 @@ C:\שנה ב\פרויקט גמר\27 07\EventsServer\BL\obj\Debug\BL.csprojAssemb
 C:\שנה ב\פרויקט גמר\27 07\EventsServer\BL\obj\Debug\BL.csproj.CopyComplete
 C:\שנה ב\פרויקט גמר\27 07\EventsServer\BL\obj\Debug\BL.dll
 C:\שנה ב\פרויקט גמר\27 07\EventsServer\BL\obj\Debug\BL.pdb
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\BL.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\BL.pdb
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\DAL.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\DTO.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\System.Web.Cors.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\System.Web.Http.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\EntityFramework.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\DAL.pdb
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\DAL.dll.config
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\DTO.pdb
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\System.Web.Http.xml
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\bin\Debug\EntityFramework.xml
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\obj\Debug\BL.dll
+C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\obj\Debug\BL.pdb
