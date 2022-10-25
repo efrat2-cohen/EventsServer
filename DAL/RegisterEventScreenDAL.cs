@@ -11,7 +11,7 @@ namespace DAL
         public bool RegisterEvent(JoysOwner joysOwner)
         {
             LoginEventScreenDAL loginEventScreen = new LoginEventScreenDAL();
-            if(loginEventScreen.CheckEmailEvent(joysOwner.EmailOwnerJoys) == false)
+            if(loginEventScreen.IsEmailExist(joysOwner.EmailOwnerJoys) == false)
             {
                 using (EventsEntities ctx = new EventsEntities())
                 {

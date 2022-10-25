@@ -26,7 +26,7 @@ namespace DAL
         }
         
 
-        public bool CheckEmailEvent(string email)
+        public bool IsEmailExist(string email)
         {
             try
             {
