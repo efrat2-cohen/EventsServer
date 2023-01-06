@@ -173,3 +173,25 @@ C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\obj\Debug\BL.
 C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\obj\Debug\BL.csproj.CopyComplete
 C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\obj\Debug\BL.dll
 C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\BL\obj\Debug\BL.pdb
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\BL.dll
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\BL.pdb
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\DAL.dll
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\DTO.dll
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\Newtonsoft.Json.dll
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\System.Net.Http.Formatting.dll
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\System.Web.Cors.dll
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\System.Web.Http.Cors.dll
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\System.Web.Http.dll
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\EntityFramework.dll
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\DAL.pdb
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\DAL.dll.config
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\DTO.pdb
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\Newtonsoft.Json.xml
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\System.Net.Http.Formatting.xml
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\System.Web.Http.xml
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\System.Web.Http.Cors.xml
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\bin\Debug\EntityFramework.xml
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\obj\Debug\BL.csproj.CopyComplete
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\obj\Debug\BL.dll
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\BL\obj\Debug\BL.pdb

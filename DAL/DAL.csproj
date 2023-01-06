@@ -90,6 +90,7 @@
     <Compile Include="RegisterEventScreenDAL.cs" />
     <Compile Include="RegisterOwnerScreenDAL.cs" />
     <Compile Include="SearchEventDAL.cs" />
+    <Compile Include="SetNewHallDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
