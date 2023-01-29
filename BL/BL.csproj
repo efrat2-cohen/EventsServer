@@ -64,6 +64,7 @@
     <Compile Include="RegisterEventBL.cs" />
     <Compile Include="RegisterOwnerBL.cs" />
     <Compile Include="SearchHallBL.cs" />
+    <Compile Include="SetHall.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

@@ -66,6 +66,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EventsModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="GetHallsDAL.cs" />
     <Compile Include="HallOwner.cs">
       <DependentUpon>EventsModel.tt</DependentUpon>
     </Compile>
@@ -75,6 +76,7 @@
     <Compile Include="HallToTheHallOwner.cs">
       <DependentUpon>EventsModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="InvitedEventDAL.cs" />
     <Compile Include="Joy.cs">
       <DependentUpon>EventsModel.tt</DependentUpon>
     </Compile>
@@ -89,7 +91,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterEventScreenDAL.cs" />
     <Compile Include="RegisterOwnerScreenDAL.cs" />
-    <Compile Include="SearchEventDAL.cs" />
+    <Compile Include="SearchHallDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />

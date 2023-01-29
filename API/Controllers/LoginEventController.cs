@@ -13,7 +13,6 @@ namespace API.Controllers
     {
         // GET: api/Login
         [HttpGet]
-        [Route("api/LoginEvent/{email}/{password}")]
         public IHttpActionResult Get(string email, string password)
         {
             if (new BL.LoginEventBL().LoginEvent(email)==true)//email exist->user exist

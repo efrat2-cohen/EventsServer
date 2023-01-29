@@ -125,6 +125,7 @@
     <Compile Include="Controllers\RegisterEventController.cs" />
     <Compile Include="Controllers\RegisterOwnerController.cs" />
     <Compile Include="Controllers\SearchHallController.cs" />
+    <Compile Include="Controllers\SetHallController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -12,18 +13,29 @@ namespace API.Controllers
     public class SearchHallController : ApiController
     {
         [EnableCors(origins: "*", headers: "*", methods: "*")]
-
-        public List<DTO.HallToTheHallOwnerDTO> SearchHall(DTO.HallToTheHallOwnerDTO hallToTheHallOwnerDTO, DateTime dateTime, int BasePrice)
+        
+        [HttpPost]
+        //[Route("api/FilterHalls")]
+        public List<DTO.HallToTheHallOwnerDTO> FilterHalls([FromBody] JObject obj)
         {
+            dynamic param = obj;
+            //DTO.HallToTheHallOwnerDTO hallToTheHallOwnerDTO = param.hall;
+            DateTime dateTime = param.date;
+            int BasePrice = param.num;
+            //DTO.HallToTheHallOwnerDTO hallToTheHallOwnerDTO=obj.
+            //   , DateTime dateTime=
+            //     int BasePrice
+            DTO.HallToTheHallOwnerDTO hallToTheHallOwnerDTO = null;
             return new BL.SearchHallBL().SearchHalls(hallToTheHallOwnerDTO, dateTime, BasePrice);
         }
-        // GET: api/SearchHall
        
         //[Route("api/SearchHall/Get")]
         //public IHttpActionResult Get()
         //{
         //    return Ok();
         //}
+        // GET: api/SearchHall
+
         [HttpGet]
         public List<DTO.HallToTheHallOwnerDTO> Get()
         {

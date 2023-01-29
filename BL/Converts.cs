@@ -130,6 +130,8 @@ namespace BL
 
         public HallToTheHallOwner Convert(HallToTheHallOwnerDTO hallToTheHallOwner)
         {
+            if (hallToTheHallOwner == null)
+                return null;
             HallToTheHallOwner hallToTheHallOwner_ = new HallToTheHallOwner();
             hallToTheHallOwner_.Hall = hallToTheHallOwner.Hall;
             hallToTheHallOwner_.Owners = hallToTheHallOwner.Owners;

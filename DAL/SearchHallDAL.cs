@@ -7,32 +7,35 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class SearchEventDAL
+    public class SearchHallDAL
     {
         public List<HallToTheHallOwner> filterList = new List<HallToTheHallOwner>();
 
         public List<HallToTheHallOwner> MenegerSearch(HallToTheHallOwner hallToTheHallOwner,DateTime dateTime,int BasePrice)
         {
             Fill();
-            if(dateTime!=null&&filterList.Count!=0)
+            if (filterList.Count == 0)
+                return null;
+            if(dateTime!=null)
                 FilterDate(dateTime);
-            if (BasePrice != 0&&filterList.Count != 0)
+            if (BasePrice != 0)
                 FilterPriceToPlace(BasePrice);
             if (hallToTheHallOwner != null)
             {
-                if (hallToTheHallOwner.LocationHall != null && filterList.Count != 0)
+                if (hallToTheHallOwner.LocationHall != null)
                     FilterLocation(hallToTheHallOwner);
-                if (hallToTheHallOwner.MaximumNumberOfPlaces != 0 && filterList.Count != 0)
+                if (hallToTheHallOwner.MaximumNumberOfPlaces != 0)
                     FilterNumOfPlaces(hallToTheHallOwner);
-                if (hallToTheHallOwner.IsParking != null && filterList.Count != 0)
+                if (hallToTheHallOwner.IsParking != null)
                     FilterParking(hallToTheHallOwner);
-                if (hallToTheHallOwner.HallName != null && filterList.Count != 0)
+                if (hallToTheHallOwner.HallName != null)
                     FilterHallName(hallToTheHallOwner);
-                if (hallToTheHallOwner.Kashrut != null && filterList.Count != 0)
+                if (hallToTheHallOwner.Kashrut != null)
                     FilterKashrut(hallToTheHallOwner);
             }
             return filterList;
         }
+
         public void Fill()
         {
             try
@@ -183,6 +186,8 @@ namespace DAL
             }
         }
 
+
+        //temprery - delete
         public List<HallToTheHallOwner> GetListHall()
         {
             List<HallToTheHallOwner> hallsList = new List<HallToTheHallOwner>();
@@ -197,7 +202,7 @@ namespace DAL
             {
                 throw;
             }
-            return hallsList; 
+            return hallsList;
         }
     }
 }
