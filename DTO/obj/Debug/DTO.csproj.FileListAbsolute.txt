@@ -34,6 +34,11 @@ C:\שנה ב\פרויקט גמר\27 07\EventsServer\DTO\bin\Debug\DTO.pdb
 C:\שנה ב\פרויקט גמר\27 07\EventsServer\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
 C:\שנה ב\פרויקט גמר\27 07\EventsServer\DTO\obj\Debug\DTO.dll
 C:\שנה ב\פרויקט גמר\27 07\EventsServer\DTO\obj\Debug\DTO.pdb
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\DTO\bin\Debug\DTO.dll
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\DTO\bin\Debug\DTO.pdb
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\DTO\obj\Debug\DTO.dll
+C:\שנה ב\פרויקט גמר\25 10\EventsServer\DTO\obj\Debug\DTO.pdb
 C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DTO\bin\Debug\DTO.dll
 C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DTO\bin\Debug\DTO.pdb
 C:\Users\user1\תכנות\FinalProject\Server\13 9\EventsServer\DTO\obj\Debug\DTO.csprojAssemblyReference.cache

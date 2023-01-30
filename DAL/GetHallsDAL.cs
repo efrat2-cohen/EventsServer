@@ -67,7 +67,6 @@ namespace DAL
 
         public static bool InsertNewHall(HallToTheHallOwner newHall)
         {
-            RegisterOwnerScreenDAL.DeleteHallOwner();
             //newHall.Owners = id owner hall 
             int owners = FilterHallOwnerById(newHall.Owners);
             if (owners != 0)

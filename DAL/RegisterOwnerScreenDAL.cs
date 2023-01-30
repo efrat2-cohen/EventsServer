@@ -24,9 +24,6 @@ namespace DAL
                     //}
                     //catch (Exception)
                     //{
-
-
-
                     //    throw;
                     //}
 
@@ -55,26 +52,6 @@ namespace DAL
                 }
             }
             return false;
-        }
-
-        public static bool DeleteHallOwner()
-        {
-            HallOwner hallOwner = new HallOwner();
-            using (EventsEntities ctx = new EventsEntities())
-            {
-                try
-                {
-                    hallOwner= ctx.HallOwners.Where(item => item.Owners == 1002).FirstOrDefault();
-                    ctx.HallOwners.Remove(hallOwner);
-                    ctx.SaveChanges();
-                    return true;
-                }
-                catch (Exception ex)
-                {
-
-                    throw;
-                }
-            }
         }
     }
 }
