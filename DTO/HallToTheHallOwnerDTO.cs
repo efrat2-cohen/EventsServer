@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,9 +17,12 @@ namespace DTO
         public int MinimumPlacesToBook { get; set; }
         public string Remarks { get; set; }
         public string Kashrut { get; set; }
-        public string image1 { get; set; }
-        public string image2 { get; set; }
-        public string image3 { get; set; }
+        public IFormFile image1 { get; set; }
+        public IFormFile image2 { get; set; }
+        public IFormFile image3 { get; set; }
+        //public string image1 { get; set; }
+        //public string image2 { get; set; }
+        //public string image3 { get; set; }
         public Nullable<bool> IsAccessibilityLevel { get; set; }
         public Nullable<bool> IsParking { get; set; }
         public string Street { get; set; }

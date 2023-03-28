@@ -9,10 +9,10 @@ namespace BL
 {
     public class SetNewHallBL
     {
+        //check if posibility delete that
         public bool SetNewHall(HallToTheHallOwnerDTO hallToTheHallOwnerDTO)
         {
-            Converts convert = new Converts();
-            return new DAL.SetNewHallDAL().SetNewHall(convert.Convert(hallToTheHallOwnerDTO));
+            return new DAL.SetNewHallDAL().SetNewHall(Converts.ConvertObj(hallToTheHallOwnerDTO));
         }
 
 

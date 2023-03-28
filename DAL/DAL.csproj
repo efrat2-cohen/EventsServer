@@ -88,6 +88,7 @@
     </Compile>
     <Compile Include="LoginOwnerScreenDAL.cs" />
     <Compile Include="LoginEventScreenDAL.cs" />
+    <Compile Include="OrderEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterEventScreenDAL.cs" />
     <Compile Include="RegisterOwnerScreenDAL.cs" />

@@ -9,7 +9,7 @@ namespace BL
 {
     public class LoginEventBL
     {
-        public bool LoginEvent(string email, string password)
+        public int LoginEvent(string email, string password)
         {
             return new DAL.LoginEventScreenDAL().CheckLoginEvent(email, password);
         }

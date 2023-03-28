@@ -12,8 +12,7 @@ namespace BL
     {
         public static bool SetNewHall(HallToTheHallOwnerDTO hallToTheHallOwnerDTO)
         {
-            Converts convert = new Converts();
-            return GetHallsDAL.InsertNewHall(convert.Convert(hallToTheHallOwnerDTO));
+            return GetHallsDAL.InsertNewHall(Converts.ConvertObj(hallToTheHallOwnerDTO));
         }
     }
 }

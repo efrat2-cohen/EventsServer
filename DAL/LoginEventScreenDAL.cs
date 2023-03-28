@@ -8,18 +8,19 @@ namespace DAL
 {
     public class LoginEventScreenDAL
     {
-        public bool CheckLoginEvent(string email, string password)
+        public int CheckLoginEvent(string email, string password)
         {
             try
             {
                 using (EventsEntities ctx = new EventsEntities())
                 {
                     var b=ctx.JoysOwners.Where(a => email == a.EmailOwnerJoys && password == a.PasswordOwnerJoys).FirstOrDefault();
-                    return b != null;
+                    return b!=null? b.JoyOwner:0;
                 }
             }
             catch (Exception)
             {
+                return 0;
                 throw;
             }
         

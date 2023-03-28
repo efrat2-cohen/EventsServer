@@ -11,8 +11,7 @@ namespace BL
     {
         public bool RegisterEvent(JoysOwnerDTO joysOwnerDTO)
         {
-            Converts convert = new Converts();
-            return new DAL.RegisterEventScreenDAL().RegisterEvent(convert.Convert(joysOwnerDTO));
+            return new DAL.RegisterEventScreenDAL().RegisterEvent(Converts.ConvertObj(joysOwnerDTO));
         }
 
        

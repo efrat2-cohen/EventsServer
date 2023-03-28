@@ -15,11 +15,16 @@ namespace API.Controllers
         [HttpGet]
         public IHttpActionResult Get(string email, string password)
         {
-            if (new BL.LoginEventBL().LoginEvent(email)==true)//email exist->user exist
-                if (new BL.LoginEventBL().LoginEvent(email, password)==true)
-                    return Ok();
+            if (new BL.LoginEventBL().LoginEvent(email) == true)//email exist->user exist
+            {
+                int v = new BL.LoginEventBL().LoginEvent(email, password);
+                if (v != 0)
+                    return Ok(v);
+                //if (new BL.LoginEventBL().LoginEvent(email, password) != 0)
+                //    return Ok();
                 else
                     return Conflict();//wrong password
+            }
             return NotFound();//user is not exist
         }
         public IEnumerable<string> Get()
@@ -34,12 +39,12 @@ namespace API.Controllers
         }
 
         // POST: api/Login
-        public void Post([FromBody]string value)
+        public void Post([FromBody] string value)
         {
         }
 
         // PUT: api/Login/5
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id, [FromBody] string value)
         {
         }
 

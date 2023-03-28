@@ -11,8 +11,7 @@ namespace BL
     {
         public bool RegisterOwner(HallOwnerDTO hallOwnerDTO)
         {
-            Converts convert = new Converts();
-            return new DAL.RegisterOwnerScreenDAL().RegisterOwner(convert.Convert(hallOwnerDTO));
+            return new DAL.RegisterOwnerScreenDAL().RegisterOwner(Converts.ConvertObj(hallOwnerDTO));
         }
     }
 }

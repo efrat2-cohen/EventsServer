@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace BL
 {
-    class Converts
+    class Converts 
     {
-        public HallOwnerDTO Convert(HallOwner hallOwner)
+        public static HallOwnerDTO ConvertObj(HallOwner hallOwner)
         {
             HallOwnerDTO hallOwner_ = new HallOwnerDTO();
             hallOwner_.NameOwners = hallOwner.NameOwners;
@@ -24,7 +24,7 @@ namespace BL
             return hallOwner_;
         }
 
-        public HallOwner Convert(HallOwnerDTO hallOwner)
+        public static HallOwner ConvertObj(HallOwnerDTO hallOwner)
         {
             HallOwner hallOwner_ = new HallOwner();
             hallOwner_.NameOwners = hallOwner.NameOwners;
@@ -38,22 +38,22 @@ namespace BL
             return hallOwner_;
         }
 
-        public List<HallOwner> Convert(List<HallOwnerDTO> hallOwner)
+        public static List<HallOwner> ConvertObj(List<HallOwnerDTO> hallOwner)
         {
             List<HallOwner> hallOwners = new List<HallOwner>();
             foreach (HallOwnerDTO item in hallOwner)
-                hallOwners.Add(Convert(item));
+                hallOwners.Add(ConvertObj(item));
             return hallOwners;
         }
 
-        public List<HallOwnerDTO> Convert(List<HallOwner> hallOwner)
+        public static List<HallOwnerDTO> ConvertObj(List<HallOwner> hallOwner)
         {
             List<HallOwnerDTO> hallOwners = new List<HallOwnerDTO>();
             foreach (HallOwner item in hallOwner)
-                hallOwners.Add(Convert(item));
+                hallOwners.Add(ConvertObj(item));
             return hallOwners;
         }
-        public HallPriceListDTO Convert(HallPriceList hallPriceList)
+        public static HallPriceListDTO ConvertObj(HallPriceList hallPriceList)
         {
             HallPriceListDTO hallPriceList_ = new HallPriceListDTO();
             hallPriceList_.PriceList = hallPriceList.PriceList;
@@ -63,15 +63,15 @@ namespace BL
             hallPriceList_.BasePrice = hallPriceList.BasePrice;
             hallPriceList_.Popularity = hallPriceList.Popularity;
             //if (hallPriceList.HallOwner != null)
-            //    hallPriceList_.HallOwner = Convert(hallPriceList.HallOwner);
+            //    hallPriceList_.HallOwner = ConvertObj(hallPriceList.HallOwner);
             //if (hallPriceList.HallToTheHallOwner != null)
-            //    hallPriceList_.HallToTheHallOwner = Convert(hallPriceList.HallToTheHallOwner);
+            //    hallPriceList_.HallToTheHallOwner = ConvertObj(hallPriceList.HallToTheHallOwner);
             //if (hallPriceList.Joy1 != null)
-            //    hallPriceList_.Joy1 = Convert(hallPriceList.Joy1);
+            //    hallPriceList_.Joy1 = ConvertObj(hallPriceList.Joy1);
             return hallPriceList_;
         }
 
-        public HallPriceList Convert(HallPriceListDTO hallPriceList)
+        public static HallPriceList ConvertObj(HallPriceListDTO hallPriceList)
         {
             HallPriceList hallPriceList_ = new HallPriceList();
             hallPriceList_.PriceList = hallPriceList.PriceList;
@@ -81,30 +81,30 @@ namespace BL
             hallPriceList_.BasePrice = hallPriceList.BasePrice;
             hallPriceList_.Popularity = hallPriceList.Popularity;
             //if (hallPriceList.HallOwner != null)
-            //    hallPriceList_.HallOwner = Convert(hallPriceList.HallOwner);
+            //    hallPriceList_.HallOwner = ConvertObj(hallPriceList.HallOwner);
             //if (hallPriceList.HallToTheHallOwner != null)
-            //    hallPriceList_.HallToTheHallOwner = Convert(hallPriceList.HallToTheHallOwner);
+            //    hallPriceList_.HallToTheHallOwner = ConvertObj(hallPriceList.HallToTheHallOwner);
             //if (hallPriceList.Joy1 != null)
-            //    hallPriceList_.Joy1 = Convert(hallPriceList.Joy1);
+            //    hallPriceList_.Joy1 = ConvertObj(hallPriceList.Joy1);
             return hallPriceList_;
         }
 
-        public List<HallPriceList> Convert(List<HallPriceListDTO> hallOwner)
+        public static List<HallPriceList> ConvertObj(List<HallPriceListDTO> hallOwner)
         {
             List<HallPriceList> hallOwners = new List<HallPriceList>();
             foreach (HallPriceListDTO item in hallOwner)
-                hallOwners.Add(Convert(item));
+                hallOwners.Add(ConvertObj(item));
             return hallOwners;
         }
 
-        public List<HallPriceListDTO> Convert(List<HallPriceList> hallOwner)
+        public static List<HallPriceListDTO> ConvertObj(List<HallPriceList> hallOwner)
         {
             List<HallPriceListDTO> hallOwners = new List<HallPriceListDTO>();
             foreach (HallPriceList item in hallOwner)
-                hallOwners.Add(Convert(item));
+                hallOwners.Add(ConvertObj(item));
             return hallOwners;
         }
-        public HallToTheHallOwnerDTO Convert(HallToTheHallOwner hallToTheHallOwner)
+        public static HallToTheHallOwnerDTO ConvertObj(HallToTheHallOwner hallToTheHallOwner)
         {
             HallToTheHallOwnerDTO hallToTheHallOwner_ = new HallToTheHallOwnerDTO();
             hallToTheHallOwner_.Hall = hallToTheHallOwner.Hall;
@@ -115,9 +115,9 @@ namespace BL
             hallToTheHallOwner_.MinimumPlacesToBook = hallToTheHallOwner.MinimumPlacesToBook;
             hallToTheHallOwner_.Remarks = hallToTheHallOwner.Remarks;
             hallToTheHallOwner_.Kashrut = hallToTheHallOwner.Kashrut;
-            hallToTheHallOwner_.image1 = hallToTheHallOwner.image1;
-            hallToTheHallOwner_.image2 = hallToTheHallOwner.image2;
-            hallToTheHallOwner_.image3 = hallToTheHallOwner.image3;
+            //hallToTheHallOwner_.image1 = hallToTheHallOwner.image1image1;
+            //hallToTheHallOwner_.image2 = hallToTheHallOwner.image2;
+            //hallToTheHallOwner_.image3 = hallToTheHallOwner.image3;
             hallToTheHallOwner_.IsAccessibilityLevel = hallToTheHallOwner.IsAccessibilityLevel;
             hallToTheHallOwner_.IsParking = hallToTheHallOwner.IsParking;
             hallToTheHallOwner_.Street = hallToTheHallOwner.Street;
@@ -128,7 +128,7 @@ namespace BL
             return hallToTheHallOwner_;
         }
 
-        public HallToTheHallOwner Convert(HallToTheHallOwnerDTO hallToTheHallOwner)
+        public static HallToTheHallOwner ConvertObj(HallToTheHallOwnerDTO hallToTheHallOwner)
         {
             if (hallToTheHallOwner == null)
                 return null;
@@ -141,35 +141,35 @@ namespace BL
             hallToTheHallOwner_.MinimumPlacesToBook = hallToTheHallOwner.MinimumPlacesToBook;
             hallToTheHallOwner_.Remarks = hallToTheHallOwner.Remarks;
             hallToTheHallOwner_.Kashrut = hallToTheHallOwner.Kashrut;
-            hallToTheHallOwner_.image1 = hallToTheHallOwner.image1;
-            hallToTheHallOwner_.image2 = hallToTheHallOwner.image2;
-            hallToTheHallOwner_.image3 = hallToTheHallOwner.image3;
+            hallToTheHallOwner_.image1 = ConvertIFormFile.ReadAsStringAsync( hallToTheHallOwner.image1).Result;
+            hallToTheHallOwner_.image2 = ConvertIFormFile.ReadAsStringAsync(hallToTheHallOwner.image2).Result;
+            hallToTheHallOwner_.image3 = ConvertIFormFile.ReadAsStringAsync(hallToTheHallOwner.image3).Result;
             hallToTheHallOwner_.IsAccessibilityLevel = hallToTheHallOwner.IsAccessibilityLevel;
             hallToTheHallOwner_.IsParking = hallToTheHallOwner.IsParking;
             hallToTheHallOwner_.Street = hallToTheHallOwner.Street;
             hallToTheHallOwner_.City = hallToTheHallOwner.City;
             hallToTheHallOwner_.HallName = hallToTheHallOwner.HallName;
             //if (hallToTheHallOwner.HallOwner != null)
-            //    hallToTheHallOwner_.HallOwner = Convert(hallToTheHallOwner.HallOwner);
+            //    hallToTheHallOwner_.HallOwner = ConvertObj(hallToTheHallOwner.HallOwner);
             return hallToTheHallOwner_;
         }
 
-        public List<HallToTheHallOwnerDTO> Convert(List<HallToTheHallOwner> hallOwner)
+        public static List<HallToTheHallOwnerDTO> ConvertObj(List<HallToTheHallOwner> hallOwner)
         {
             List<HallToTheHallOwnerDTO> hallOwners = new List<HallToTheHallOwnerDTO>();
             foreach (HallToTheHallOwner item in hallOwner)
-                hallOwners.Add(Convert(item));
+                hallOwners.Add(ConvertObj(item));
             return hallOwners;
         }
 
-        public List<HallToTheHallOwner> Convert(List<HallToTheHallOwnerDTO> hallOwner)
+        public static List<HallToTheHallOwner> ConvertObj(List<HallToTheHallOwnerDTO> hallOwner)
         {
             List<HallToTheHallOwner> hallOwners = new List<HallToTheHallOwner>();
             foreach (HallToTheHallOwnerDTO item in hallOwner)
-                hallOwners.Add(Convert(item));
+                hallOwners.Add(ConvertObj(item));
             return hallOwners;
         }
-        public Joy Convert(JoysDTO joy)
+        public static Joy ConvertObj(JoysDTO joy)
         {
             Joy joy_ = new Joy();
             joy_.Joy1 = joy.Joy1;
@@ -177,7 +177,7 @@ namespace BL
             return joy_;
         }
 
-        public JoysDTO Convert(Joy joy)
+        public static JoysDTO ConvertObj(Joy joy)
         {
             JoysDTO joy_ = new JoysDTO();
             joy_.Joy1 = joy.Joy1;
@@ -185,22 +185,22 @@ namespace BL
             return joy_;
         }
 
-        public List<Joy> Convert(List<JoysDTO> hallOwner)
+        public static List<Joy> ConvertObj(List<JoysDTO> hallOwner)
         {
             List<Joy> hallOwners = new List<Joy>();
             foreach (JoysDTO item in hallOwner)
-                hallOwners.Add(Convert(item));
+                hallOwners.Add(ConvertObj(item));
             return hallOwners;
         }
 
-        public List<JoysDTO> Convert(List<Joy> hallOwner)
+        public static List<JoysDTO> ConvertObj(List<Joy> hallOwner)
         {
             List<JoysDTO> hallOwners = new List<JoysDTO>();
             foreach (Joy item in hallOwner)
-                hallOwners.Add(Convert(item));
+                hallOwners.Add(ConvertObj(item));
             return hallOwners;
         }
-        public JoysOwner Convert(JoysOwnerDTO joysOwner)
+        public static JoysOwner ConvertObj(JoysOwnerDTO joysOwner)
         {
             JoysOwner joysOwner_ = new JoysOwner();
             joysOwner_.JoyOwner = joysOwner.JoyOwner;
@@ -212,7 +212,7 @@ namespace BL
             return joysOwner_;
         }
 
-        public JoysOwnerDTO Convert(JoysOwner joysOwner)
+        public static JoysOwnerDTO ConvertObj(JoysOwner joysOwner)
         {
             JoysOwnerDTO joysOwner_ = new JoysOwnerDTO();
             joysOwner_.JoyOwner = joysOwner.JoyOwner;
@@ -224,22 +224,22 @@ namespace BL
             return joysOwner_;
         }
 
-        public List<JoysOwnerDTO> Convert(List<JoysOwner> hallOwner)
+        public static List<JoysOwnerDTO> ConvertObj(List<JoysOwner> hallOwner)
         {
             List<JoysOwnerDTO> hallOwners = new List<JoysOwnerDTO>();
             foreach (JoysOwner item in hallOwner)
-                hallOwners.Add(Convert(item));
+                hallOwners.Add(ConvertObj(item));
             return hallOwners;
         }
 
-        public List<JoysOwner> Convert(List<JoysOwnerDTO> hallOwner)
+        public static List<JoysOwner> ConvertObj(List<JoysOwnerDTO> hallOwner)
         {
             List<JoysOwner> hallOwners = new List<JoysOwner>();
             foreach (JoysOwnerDTO item in hallOwner)
-                hallOwners.Add(Convert(item));
+                hallOwners.Add(ConvertObj(item));
             return hallOwners;
         }
-        public JoysOwnerHall Convert(JoysOwnerHallDTO joysOwnerHall)
+        public static JoysOwnerHall ConvertObj(JoysOwnerHallDTO joysOwnerHall)
         {
             JoysOwnerHall joysOwnerHall_ = new JoysOwnerHall();
             joysOwnerHall_.JoyOwnerHall = joysOwnerHall.Owners;
@@ -255,17 +255,17 @@ namespace BL
             joysOwnerHall_.CalaName = joysOwnerHall.CalaName;
             joysOwnerHall_.Seminar = joysOwnerHall.Seminar;
             joysOwnerHall_.YeshivaName = joysOwnerHall.YeshivaName;
-            //   joysOwnerHall_.HallOwner = Convert(joysOwnerHall.HallOwner);
+            //   joysOwnerHall_.HallOwner = ConvertObj(joysOwnerHall.HallOwner);
             //if (joysOwnerHall.HallToTheHallOwner != null)
-            //    joysOwnerHall_.HallToTheHallOwner = Convert(joysOwnerHall.HallToTheHallOwner);
+            //    joysOwnerHall_.HallToTheHallOwner = ConvertObj(joysOwnerHall.HallToTheHallOwner);
             //if (joysOwnerHall.Joy1 != null)
-            //    joysOwnerHall_.Joy1 = Convert(joysOwnerHall.Joy1);
+            //    joysOwnerHall_.Joy1 = ConvertObj(joysOwnerHall.Joy1);
             //if (joysOwnerHall.JoysOwner != null)
-            //    joysOwnerHall_.JoysOwner = Convert(joysOwnerHall.JoysOwner);
+            //    joysOwnerHall_.JoysOwner = ConvertObj(joysOwnerHall.JoysOwner);
             return joysOwnerHall_;
         }
 
-        public JoysOwnerHallDTO Convert(JoysOwnerHall joysOwnerHall)
+        public static JoysOwnerHallDTO ConvertObj(JoysOwnerHall joysOwnerHall)
         {
             JoysOwnerHallDTO joysOwnerHall_ = new JoysOwnerHallDTO();
             joysOwnerHall_.Owners = joysOwnerHall.JoyOwnerHall;
@@ -281,28 +281,28 @@ namespace BL
             joysOwnerHall_.CalaName = joysOwnerHall.CalaName;
             joysOwnerHall_.Seminar = joysOwnerHall.Seminar;
             joysOwnerHall_.YeshivaName = joysOwnerHall.YeshivaName;
-            //  joysOwnerHall_.HallOwner = Convert(joysOwnerHall.HallOwner);
+            //  joysOwnerHall_.HallOwner = ConvertObj(joysOwnerHall.HallOwner);
             //if (joysOwnerHall.HallToTheHallOwner != null)
-            //    joysOwnerHall_.HallToTheHallOwner = Convert(joysOwnerHall.HallToTheHallOwner);
+            //    joysOwnerHall_.HallToTheHallOwner = ConvertObj(joysOwnerHall.HallToTheHallOwner);
             //if (joysOwnerHall.Joy1 != null)
-            //    joysOwnerHall_.Joy1 = Convert(joysOwnerHall.Joy1);
+            //    joysOwnerHall_.Joy1 = ConvertObj(joysOwnerHall.Joy1);
             //if (joysOwnerHall.JoysOwner != null)
-            //    joysOwnerHall_.JoysOwner = Convert(joysOwnerHall.JoysOwner);
+            //    joysOwnerHall_.JoysOwner = ConvertObj(joysOwnerHall.JoysOwner);
             return joysOwnerHall_;
         }
-        public List<JoysOwnerHall> Convert(List<JoysOwnerHallDTO> hallOwner)
+        public static List<JoysOwnerHall> ConvertObj(List<JoysOwnerHallDTO> hallOwner)
         {
             List<JoysOwnerHall> hallOwners = new List<JoysOwnerHall>();
             foreach (JoysOwnerHallDTO item in hallOwner)
-                hallOwners.Add(Convert(item));
+                hallOwners.Add(ConvertObj(item));
             return hallOwners;
         }
 
-        public List<JoysOwnerHallDTO> Convert(List<JoysOwnerHall> hallOwner)
+        public static List<JoysOwnerHallDTO> ConvertObj(List<JoysOwnerHall> hallOwner)
         {
             List<JoysOwnerHallDTO> hallOwners = new List<JoysOwnerHallDTO>();
             foreach (JoysOwnerHall item in hallOwner)
-                hallOwners.Add(Convert(item));
+                hallOwners.Add(ConvertObj(item));
             return hallOwners;
         }
     }

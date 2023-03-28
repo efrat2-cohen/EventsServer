@@ -10,7 +10,7 @@
         <EntityTypeShape EntityType="EventsModel.HallToTheHallOwner" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
         <EntityTypeShape EntityType="EventsModel.Joy" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
         <EntityTypeShape EntityType="EventsModel.JoysOwner" Width="1.5" PointX="10" PointY="8.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="EventsModel.JoysOwnerHall" Width="1.5" PointX="7.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventsModel.JoysOwnerHall" Width="1.875" PointX="7.5" PointY="5.125" IsExpanded="true" />
         <AssociationConnector Association="EventsModel.HallOwnersFK" ManuallyRouted="false" />
         <AssociationConnector Association="EventsModel.OwnersFK" ManuallyRouted="false" />
         <AssociationConnector Association="EventsModel.HallFK" ManuallyRouted="false" />

@@ -16,19 +16,6 @@ namespace DAL
             {
                 using (EventsEntities ctx = new EventsEntities())
                 {
-                    //try
-                    //{
-                    //    ctx.HallOwners.Add(hallOwner);
-                    //    ctx.SaveChanges();
-                    //    return true;
-                    //}
-                    //catch (Exception)
-                    //{
-                    //    throw;
-                    //}
-
-
-
                     try
                     {
                         ctx.HallOwners.Add(hallOwner);
