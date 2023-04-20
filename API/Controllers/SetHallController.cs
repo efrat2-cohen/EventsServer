@@ -11,17 +11,6 @@ namespace API.Controllers
     public class SetHallController : ApiController
     {
         [EnableCors(origins: "*", headers: "*", methods: "*")]
-        // GET: api/SetHall
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET: api/SetHall/5
-        public string Get(int id)
-        {
-            return "value";
-        }
 
         // POST: api/SetHall
         [HttpPost]
@@ -37,10 +26,6 @@ namespace API.Controllers
             if (BL.SetHall.UpdateHall(hallToTheHallOwner))
                 return Ok();
             return Conflict();
-        }
-        // PUT: api/SetHall/5
-        public void Put(int id, [FromBody] string value)
-        {
         }
 
         // DELETE: api/SetHall/5

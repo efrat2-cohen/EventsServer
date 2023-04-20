@@ -11,15 +11,13 @@ namespace API.Controllers
     public class HallDetailsController : ApiController
     {
         [EnableCors(origins: "*", headers: "*", methods: "*")]
-        // GET: HallDetails
         [HttpGet]
         public IHttpActionResult GetHallById(int id)
         {
-            var x = BL.HallDetailsBL.GetHall(id);
+            var x =  BL.HallDetailsBL.GetHall(id);
             if (x != null)
-            return Ok(x);
+                return Ok(x);
             return Conflict();
-
         }
     }
 }
