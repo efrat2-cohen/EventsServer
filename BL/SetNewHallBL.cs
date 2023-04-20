@@ -12,7 +12,7 @@ namespace BL
         //check if posibility delete that
         public bool SetNewHall(HallToTheHallOwnerDTO hallToTheHallOwnerDTO)
         {
-            return new DAL.SetNewHallDAL().SetNewHall(Converts.ConvertObj(hallToTheHallOwnerDTO));
+            return new DAL.SetHallDAL().SetNewHall(Converts.ConvertObj(hallToTheHallOwnerDTO));
         }
 
 

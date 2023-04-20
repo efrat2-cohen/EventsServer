@@ -145,6 +145,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\HallDetailsController.cs" />
     <Compile Include="Controllers\LoginEventController.cs" />
     <Compile Include="Controllers\LoginOwnerController.cs" />
     <Compile Include="Controllers\OrderEventController.cs" />
@@ -177,6 +178,10 @@
     <ProjectReference Include="..\BL\BL.csproj">
       <Project>{c63ef556-7306-4e17-99bc-af6405332acc}</Project>
       <Name>BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{EFEF286E-A245-4E75-878A-A808EAD3C580}</Project>
+      <Name>DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\DTO\DTO.csproj">
       <Project>{27a69331-131c-4fe8-a2ab-4395679e0873}</Project>

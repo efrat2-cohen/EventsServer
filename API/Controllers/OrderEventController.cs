@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -15,8 +16,9 @@ namespace API.Controllers
         // GET: api/OrderEvent
         public IHttpActionResult GetOrdersByEventOwner(int id_eventOwner)
         {
-            if (new BL.OrderEventBL().GetOrdersByEventOwner(id_eventOwner).Count != 0)
-                return Ok(new BL.OrderEventBL().GetOrdersByEventOwner(id_eventOwner));
+            List<JoysOwnerHallDTO> listOwner = new BL.OrderEventBL().GetOrdersByEventOwner(id_eventOwner);
+            if (listOwner.Count != 0)
+                return Ok(listOwner);
             return Conflict();//does'nt have event to user
         }
 

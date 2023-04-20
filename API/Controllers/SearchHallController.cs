@@ -13,7 +13,6 @@ namespace API.Controllers
     public class SearchHallController : ApiController
     {
         [EnableCors(origins: "*", headers: "*", methods: "*")]
-
         [HttpPost]
         //[Route("api/FilterHalls")]
         public List<DTO.HallToTheHallOwnerDTO> FilterHalls([FromBody] JObject obj)
@@ -54,15 +53,14 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        //public List<object> GetHallsByOwner(string email_owner)
-        //{
-        //    List < List<object> > hallsLst;
-        //    List<int> idHallLst = new BL.SearchHallBL().GetIdHallsByEmailOwner(email_owner);
-        //    foreach (int item in idHallLst)
-        //    {
-        //        hallsLst.Add(GetDetailsHallByHall(item))
-        //    }
-        //}
+        //[Route("SearchHall/GetNamesHallByOwner")]
+        public List<NamesHalls> GetNamesHallByOwner(string emailOwner)
+        {
+            List<NamesHalls> lst = new List<NamesHalls>();
+            lst.Add(new NamesHalls("58", 1));
+            lst.Add(new NamesHalls("grand hall", 2));
+            return lst;
+        }
 
         public List<object> GetDetailsHallByHall(int id_hall)
         {
@@ -85,6 +83,18 @@ namespace API.Controllers
         // DELETE: api/SearchHall/5
         public void Delete(int id)
         {
+        }
+    }
+
+    public class NamesHalls
+    {
+        private string name;
+        private int idHall;
+
+        public NamesHalls(string v1, int v2)
+        {
+            name = v1;
+            idHall = v2;
         }
     }
 }

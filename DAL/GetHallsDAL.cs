@@ -99,7 +99,7 @@ namespace DAL
             }
         }
 
-        public bool UpdateHall(HallToTheHallOwner hall)
+        public static bool UpdateHall(HallToTheHallOwner hall)
         {
             using (EventsEntities ctx=new EventsEntities())
             {

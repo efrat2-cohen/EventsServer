@@ -84,6 +84,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="ConvertIFormFile.cs" />
     <Compile Include="Converts.cs" />
+    <Compile Include="HallDetailsBL.cs" />
     <Compile Include="LoginEventBL.cs" />
     <Compile Include="LoginOwnerBL.cs" />
     <Compile Include="OrderEventBL.cs" />

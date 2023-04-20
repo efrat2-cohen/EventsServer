@@ -25,13 +25,21 @@ namespace API.Controllers
 
         // POST: api/SetHall
         [HttpPost]
-        public bool Post(DTO.HallToTheHallOwnerDTO hallToTheHallOwnerDTO)
+        public bool Add(DTO.HallToTheHallOwnerDTO hallToTheHallOwnerDTO)
         {
             return BL.SetHall.SetNewHall(hallToTheHallOwnerDTO);
         }
 
+        // POST: api/SetHall
+        [HttpPost]
+        public IHttpActionResult UpdateHall(DTO.HallToTheHallOwnerDTO hallToTheHallOwner)
+        {
+            if (BL.SetHall.UpdateHall(hallToTheHallOwner))
+                return Ok();
+            return Conflict();
+        }
         // PUT: api/SetHall/5
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id, [FromBody] string value)
         {
         }
 
